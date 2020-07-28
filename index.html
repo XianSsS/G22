@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>个人简历网页的实现</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <style>
+        h2#tools {
+            background-color: rgb(70, 31, 31);
+        }
+        h2#clock {
+            background-color: rgb(70, 31, 31);
+        }
+        h2#titleName {
+            margin: 20px-60px 10px;
+        }
+
+        h2#ribbon::before {
+            background-position: left-45px;
+        }
+
+        h2#tools::before {
+            background-position: left top;
+        }
+
+        h2#learn::before {
+            background-position: right top;
+        }
+
+        h2#clock::before {
+            background-position: -45px top;
+        }
+
+        h2#titleName::before {
+            background-position: -90px bottom
+        }
+
+        #bio {
+            position: relative;
+        }
+
+        #bio#avatar {
+            float: left;
+            margin: 0 20px 0 0;
+        }
+
+        #bio h2 {
+            font-size: 15px
+        }
+
+        #bio p {
+            clear: left;
+            margin: 40px auto;
+            padding: 40px;
+            max-width: 560px;
+            background: #fbfbfb;
+            border: 1px solid #f3f3f3;
+            border-radius: 8px;
+            position: relative;
+            border-width: 0 1px;
+            border-color: #fff #f3f3f3 #e8e8e8;
+            line-height: 1.6em
+        }
+
+        #honorsAwards li {
+            padding-bottom: 8px
+        }
+
+        ul#skills,
+        .details,
+        ul#jobs li,
+        ul#schools li {
+            margin: 0 0 20px 0;
+            clear: both;
+        }
+
+        ul#skills.details,
+        ul#jobs li.details {
+            float: left;
+            width: 40%;
+            margin-bottom: 25px;
+        }
+
+        ul#jobs li p,
+        ul#schools li>p,
+        ul#schools li>p {
+            float: right;
+            width: 57%;
+            margin-bottom: 25px;
+        }
+
+
+        .details h5 {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h2 id="titleName" class="sectionHead">高骏威</h2>
+        <div id="bio">
+            <h2>目前是学生，但是理想职业是软件工程师，当一名程序员。</h2>
+            <p>我叫高骏威，男，今年21岁，就读于福建船政交通职业学院。目前还是信息工程系大一学生</p>
+        </div>
+        <div class="clear"></div>
+        <h2 id="tools" class="sectionHead">个人技能</h2>
+        <ul id="skills">
+            <li>
+                <div class="details">
+
+                    <h3>HTML5+CSS3</h3>
+
+                </div>
+                <p>精通并熟练使用</p>
+
+            </li>
+            <li>
+                <div class="details">
+                    <h3>JavaScript</h3>
+                </div>
+                <p>精通并熟练使用</p>
+
+            </li>
+        </ul>
+        <div class="clear"></div>
+        <h2 id="clock" class="sectionHead">工作经验</h2>
+        <ul id="jobs">
+            <li>
+                <div class="details">
+                    <h3>无</h3>
+                    <h4>无</h4>
+                    <h5>2019.03</h5>
+                </div>
+                <p>……省略文字</p>
+            </li>
+            <li>
+                <div class="detail">
+                    <h3>福建船政交通职业学院</h3>
+                    <h4>学生</h4>
+                    <h5>2018.09-2019.03</h5>
+
+                </div>
+                <p>开发Javascript以及Flash模板，同时结合后台技术模拟整体效果，进行丰富互联网的Web开发，致力于通过技术改善用户体验。</p>
+
+            </li>
+        </ul>
+        <div class="clear"></div>
+        <h2 id="learn" class="sectionHead">教育背景</h2>
+        <ul id="schools">
+            <li>
+                <div class="details">
+                    <h3>福建船政交通职业学院</h3>
+                    <h4>计算机应用技术一班48</h4>
+                    <h5>2007.06-2011.06</h5>
+
+                </div>
+                <p>主要学习Java、C语言……省略文字</p>
+
+            </li>
+        </ul>
+        <div class="clear"></div>
+        <h2 id="ribbon" class="sectionHead">获得荣誉</h2>
+        <ul id="honorsAwards">
+            <li>英语B级</li>
+            <li>福建省计算机等级考试</li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
